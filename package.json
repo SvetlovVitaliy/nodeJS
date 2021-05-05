@@ -1,0 +1,30 @@
+{
+  "name": "nodejs2021",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "index.js",
+  "scripts": {
+    "task1.1": "nodemon --exec babel-node task1/task1.1.js",
+    "task1.2": "nodemon --exec babel-node task1/task1.2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlovVitaliy/nodeJS.git"
+  },
+  "author": "VitaliiSvetlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlovVitaliy/nodeJS/issues"
+  },
+  "homepage": "https://github.com/SvetlovVitaliy/nodeJS#readme",
+  "dependencies": {
+    "csvtojson": "2.0.10",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/node": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "nodemon": "2.0.7"
+  }
+}
